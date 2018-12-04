@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <title>Ontwikkelings Formulier</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Formulier">
+  <meta name="keywords"    content="formulier, opdracht, mediacollege">
+  <meta name="author"      content="Brian Loman, MG1D">
+  <link rel="stylesheet"   href="FormulierVoorbeeld.css">
+</head>
+<body>
+  <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+    <h1>Een plan voor jouw ontwikkeling</h1>
+    Om een eerste stap te zetten naar een persoonlijk opleidingplan zul je
+    eerst een paar vragen voor jezelf moeten beantoorden.
+    Dit formulier helpt jou daar bij. <br><br>
+  Naam <input type = "text" name="Naam" placeholder="Bv. Jan Jansen" required autofocus>
+  <select id="dropdown" name="Klas" required>
+    <option value="">selecteer jouw klas</option>
+    <option value="MG1A">MG1A</option>
+    <option value="MG1B">MG1B</option>
+    <option value="MG1C">MG1C</option>
+    <option value="MG1D">MG1D</option>
+  </select>
+  <br>
+  <fieldset class="welbevinden">
+    <legend>Welbevinden</legend>
+    <br>
+    Hoe positief ben je op dit moment over je opleiding?
+    <br><br>
+    <label><input type="radio" name="Positief" value="1" required>1</label>
+    <label><input type="radio" name="Positief" value="2">2</label>
+    <label><input type="radio" name="Positief" value="3">3</label>
+    <label><input type="radio" name="Positief" value="4">4</label>
+    <label><input type="radio" name="Positief" value="5">5</label>
+    <label><input type="radio" name="Positief" value="6">6</label>
+    <label><input type="radio" name="Positief" value="7">7</label>
+    <label><input type="radio" name="Positief" value="8">8</label>
+    <label><input type="radio" name="Positief" value="9">9</label>
+    <label><input type="radio" name="Positief" value="10">10</label>
+    <br><br>
+    Hoe gemotiveerd ben je momenteel om de opleiding af te maken?
+    <br><br>
+    <label><input type="radio" name="Motivatie" value="1" required>1</label>
+    <label><input type="radio" name="Motivatie" value="2">2</label>
+    <label><input type="radio" name="Motivatie" value="3">3</label>
+    <label><input type="radio" name="Motivatie" value="4">4</label>
+    <label><input type="radio" name="Motivatie" value="5">5</label>
+    <label><input type="radio" name="Motivatie" value="6">6</label>
+    <label><input type="radio" name="Motivatie" value="7">7</label>
+    <label><input type="radio" name="Motivatie" value="8">8</label>
+    <label><input type="radio" name="Motivatie" value="9">9</label>
+    <label><input type="radio" name="Motivatie" value="10">10</label>
+    <br><br>
+    Hoeveel vertrouwen heb je momenteel in je eigen kunnen?
+    <br><br>
+    <label><input type="radio" name="Vertrouwen" value="1" required>1</label>
+    <label><input type="radio" name="Vertrouwen" value="2">2</label>
+    <label><input type="radio" name="Vertrouwen" value="3">3</label>
+    <label><input type="radio" name="Vertrouwen" value="4">4</label>
+    <label><input type="radio" name="Vertrouwen" value="5">5</label>
+    <label><input type="radio" name="Vertrouwen" value="6">6</label>
+    <label><input type="radio" name="Vertrouwen" value="7">7</label>
+    <label><input type="radio" name="Vertrouwen" value="8">8</label>
+    <label><input type="radio" name="Vertrouwen" value="9">9</label>
+    <label><input type="radio" name="Vertrouwen" value="10">10</label>
+  </fieldset>
+
+  <fieldset class="school">
+    <legend>School</legend>
+      <br>
+      Hoe positief ben je over je huidige docenten?
+      <br><br>
+      <label><input type="radio" name="Docenten" value="1" required>1</label>
+      <label><input type="radio" name="Docenten" value="2">2</label>
+      <label><input type="radio" name="Docenten" value="3">3</label>
+      <label><input type="radio" name="Docenten" value="4">4</label>
+      <label><input type="radio" name="Docenten" value="5">5</label>
+      <label><input type="radio" name="Docenten" value="6">6</label>
+      <label><input type="radio" name="Docenten" value="7">7</label>
+      <label><input type="radio" name="Docenten" value="8">8</label>
+      <label><input type="radio" name="Docenten" value="9">9</label>
+      <label><input type="radio" name="Docenten" value="10">10</label>
+      <br><br>
+      Hoe positief ben je over de school in het algemeen?
+      <br><br>
+      <label><input type="radio" name="School" value="1" required>1</label>
+      <label><input type="radio" name="School" value="2">2</label>
+      <label><input type="radio" name="School" value="3">3</label>
+      <label><input type="radio" name="School" value="4">4</label>
+      <label><input type="radio" name="School" value="5">5</label>
+      <label><input type="radio" name="School" value="6">6</label>
+      <label><input type="radio" name="School" value="7">7</label>
+      <label><input type="radio" name="School" value="8">8</label>
+      <label><input type="radio" name="School" value="9">9</label>
+      <label><input type="radio" name="School" value="10">10</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Sterke kanten</legend>
+    <br>
+    Wat zijn jouw sterke kanten?
+    <br><br>
+    <label><input type="checkbox" name="HTML/CSS" value="Sterk">Coderen in HTML/CSS</label>
+    <label><input type="checkbox" name="Java" value="Sterk">Programmeren in Java</label>
+    <label><input type="checkbox" name="JavaScript" value="Sterk">Scripting:
+    programmeren in JavaScript</label>
+    <label><input type="checkbox" name="Planning" value="Sterk">Planning</label>
+    <label><input type="checkbox" name="Samenwerken" value="Sterk">Samenwerken</label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Nog te ontwikkelen</legend>
+    <br>
+    Aan welke skills moet je nog extra aandacht besteden?
+    <br><br>
+    <label><input type="checkbox" name="HTML/CSS " value="Zwak">Coderen in HTML/CSS</label>
+    <label><input type="checkbox" name="Java " value="Zwak">Programmeren in Java</label>
+    <label><input type="checkbox" name="JavaScript " value="Zwak">Scripting:
+    programmeren in JavaScript</label>
+    <label><input type="checkbox" name="Planning " value="Zwak">Planning</label>
+    <label><input type="checkbox" name="Samenwerken " value="Zwak">Samenwerken</label>
+  </fieldset>
+
+  <br>
+  Wat zijn jouw plannen voor de toekomst?
+  <br><br>
+  <textarea id="textarea" rows="6" cols="60" name="Toekomstplannen"  oninput="" placeholder="Plaats hier je toekomstplannen..."></textarea>
+
+  <input id="send" type="submit" value="verstuur"/>
+
+  <footer id="validatie">
+    <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+      <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Validatie HTML5">
+    </a>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+      <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Validatie CSS">
+    </a>
+  </footer>
+  </form>
+</body>
+</html>

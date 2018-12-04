@@ -1,0 +1,33 @@
+#dropdown{
+  border-radius: 5px;
+}
+
+#send{
+  border-radius: 5px;
+  background-color: white;
+  border-width: 1px;
+}
+
+#textarea{
+  overflow: scroll;
+}
+
+.welbevinden label{
+  display: inline-block;
+  background: pink;
+  padding: 1em;
+  cursor: pointer;
+  text-align: center;
+}
+
+.school label{
+  display: inline-block;
+  background: pink;
+  padding: 1em;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="radio"]{
+  display: block;
+}
